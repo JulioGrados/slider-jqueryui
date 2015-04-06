@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/theme/jquery-ui.css">
+	<style>
+		div {
+			float: left;
+			margin-left: 30px;
+			margin-right: 30px;
+		}
+	</style>
+</head>
+<body>
+	<div id="slider1"></div>
+	<div id="slider2"></div>
+	<div id="slider3"></div>
+	<script src="js/vendor/jquery.js"></script>
+	<script src="js/vendor/jquery-ui.js"></script>
+	<script>
+		$("#slider1").slider({
+			orientation: 'vertical'
+		});
+		$("#slider2").slider({
+			orientation: 'vertical'
+		});
+		$("#slider3").slider({
+			orientation: 'vertical'
+		});
+	</script>
+</body>
+</html>
